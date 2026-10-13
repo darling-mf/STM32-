@@ -1,0 +1,30 @@
+# Keil 编译生成的文件
+Objects/
+Listings/
+DebugConfig/
+*.bak
+*.dep
+*.crf
+*.o
+*.d
+*.axf
+*.htm
+*.lnp
+*.iex
+*.sct
+*.map
+*.lst
+*.build_log.htm
+EventRecorderStub.scvd
+
+# Keil 用户界面配置文件 (不同电脑打开会变，不需要上传)
+*.uvguix.*
+template.uvguix.gaoxi
+
+# 可选：如果你不想把外部库 `my_lib` 和 `std_periph_driver` 传上去，可以取消注释下面两行
+# my_lib/
+# std_periph_driver/
+
+# 系统文件
+Thumbs.db
+Desktop.ini
